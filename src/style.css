@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Colore di sfondo di fallback */
+    background-image: url('images/background.jpg'); /* Aggiungi l'immagine di sfondo */
+    background-size: cover; /* Copre l'intero corpo */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Non ripete l'immagine */
+}
+
+.book-container {
+    display: flex;
+    overflow: hidden; /* Nasconde le immagini in eccesso */
+    position: relative; /* Per posizionare l'immagine di sfondo */
+    z-index: 1; /* Assicura che le pagine siano sopra lo sfondo */
+}
+
+.book-container img {
+    width: 100%; /* L'immagine occuperà tutta la larghezza */
+    height: auto; /* Mantiene il rapporto di aspetto */
+    display: block; /* Rimuove gli spazi sotto le immagini */
+    z-index: 2; /* Le immagini delle pagine devono essere sopra lo sfondo */
+}
+
