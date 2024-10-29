@@ -6,28 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./main.js" defer></script>
     <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+    <script defer src="./main.js"></script>
 </head>
 <body>
-    <!-- Previous Button -->
+    
     <button id="prev-btn">
         <i class="fas fa-arrow-circle-left"></i>
     </button>
 
-
-    <!-- Book -->
+    <!-- The Book -->
     <div id="book" class="book">
         <!-- Paper 1 -->
         <div id="p1" class="paper">
             <div class="front">
                 <div id="f1" class="front-content">
-                    <h1>Front 1</h1>
+                    <h1 class="book-title">Little Dog</h1>
+                    <img class="cover-img" src="./dog.jpg" alt="dog">
                 </div>
             </div>
             <div class="back">
                 <div id="b1" class="back-content">
-                    <h1>Back 1</h1>
+                    <h2>Some Intro</h2>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -35,12 +42,12 @@
         <div id="p2" class="paper">
             <div class="front">
                 <div id="f2" class="front-content">
-                    <h1>Front 2</h1>
+                    <h1>Some Cool Page</h1>
                 </div>
             </div>
             <div class="back">
                 <div id="b2" class="back-content">
-                    <h1>Back 2</h1>
+                    <h1>An Awesome Page</h1>
                 </div>
             </div>
         </div>
@@ -48,20 +55,21 @@
         <div id="p3" class="paper">
             <div class="front">
                 <div id="f3" class="front-content">
-                    <h1>Front 3</h1>
+                    <h1>An Amazing Page</h1>
                 </div>
             </div>
             <div class="back">
                 <div id="b3" class="back-content">
-                    <h1>Back 3</h1>
+                    <h1>The Good Bye</h1>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Next Button -->
     <button id="next-btn">
         <i class="fas fa-arrow-circle-right"></i>
     </button>
+
+
 </body>
 </html>

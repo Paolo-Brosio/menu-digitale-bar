@@ -1,3 +1,7 @@
-# 3D-Book-Tutorial-Basic
+# 3D-Flip-Book-Tutorial-Customized
 
-[show in browser](https://codingstar-jason.github.io/3D-Book-Tutorial-Basic-CodingStar/)
+[view in browser](https://codingstar-jason.github.io/3D-Flip-Book-Tutorial-Customized-CodingStar/)
+
+### Shoutout 🙌
+
+Little Dog Photo by David Clarke on Unsplash
